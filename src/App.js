@@ -14,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/about/:aboutID" element={<PeopleDetails />}></Route>
+
         <Route path="*" element={<Notfound />}></Route>
       </Routes>
     </div>
